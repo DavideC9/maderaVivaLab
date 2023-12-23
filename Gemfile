@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
@@ -26,6 +26,12 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
+gem 'materialize-sass'
+gem "sassc-rails"
+
+gem 'devise', '~> 4.9.2'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
